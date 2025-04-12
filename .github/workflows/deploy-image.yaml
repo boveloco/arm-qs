@@ -10,6 +10,9 @@ on:
       - '**/*.sh'
       - '**/*.yaml'
       - '**/*.yml'
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    
 
 permissions:
   contents: read
