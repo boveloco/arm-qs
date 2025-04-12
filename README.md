@@ -1,5 +1,7 @@
 # ARM (Automatic Ripping Machine) with QuickSync Support
 
+## THIS IMAGE SHOULD BE RUN WITH USER 1000
+
 This repository provides a comprehensive solution for deploying and maintaining an **Automatic Ripping Machine (ARM)** with **Intel QuickSync** support. ARM is a tool designed to automate the process of ripping and encoding media from optical discs, such as DVDs and Blu-rays. By leveraging Intel QuickSync, this setup ensures faster and more efficient video encoding by utilizing hardware acceleration.
 
 ## Features

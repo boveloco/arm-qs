@@ -21,3 +21,4 @@ RUN apt update -y &&\
     make && make install &&\
     cd .. &&\
     rm -rf quicksync
+RUN chown -R 1000:1000 /etc/container_environment
